@@ -1,0 +1,55 @@
+syntax = "proto3";
+
+package DigitalLifeNameSpace;
+
+enum BaseMessageType {
+	BASEMESSAGETYPE_None = 0;
+	BASEMESSAGETYPE_SWITCHMESH = 1;
+	BASEMESSAGETYPE_ALLOWEDSAY = 2;
+	BASEMESSAGETYPE_CLIENTSENDDATA = 3;
+	BASEMESSAGETYPE_SERVERRETDATA = 4;
+};
+
+enum ClientMeshType {
+	CLIENTMESHTYPE_PAIMON = 0;
+	CLIENTMESHTYPE_YUNFEI = 1;
+};
+
+message C_BaseAsk {
+	BaseMessageType BaseType = 1;
+	
+	bool bSuccess = 15;		//数据传输完成标志位
+};
+
+message S_SwitchMesh {
+	BaseMessageType BaseType = 1;
+	
+	enum ClientMeshType {
+		CLIENTMESHTYPE_PAIMON = 0;
+		CLIENTMESHTYPE_YUNFEI = 1;
+	};
+	ClientMeshType MeshType = 2;
+	
+	bool bSuccess = 15;		//数据传输完成标志位
+};
+
+message S_AllowedSay {
+	BaseMessageType BaseType = 1;
+	
+	bool bSuccess = 15;		//数据传输完成标志位
+};
+
+message C_SendData {
+	BaseMessageType BaseType = 1;
+	bytes WavFileData = 2;
+	
+	bool bSuccess = 15;		//数据传输完成标志位
+};
+
+message S_RetData {
+	BaseMessageType BaseType = 1;
+	int32 StateType = 2;
+	bytes WavFileData = 3;
+	
+	bool bSuccess = 15;		//数据传输完成标志位
+};

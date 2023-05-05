@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Unreal Plugin Example-->
+<root xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidManifestUpdates>
+        <addPermission android:name="android.permission.RECORD_AUDIO"/>
+    </androidManifestUpdates>
+	
+	<resourceCopies>
+		<copyFile  src = "$S(ProjectDir)/Java/TestLib.jar"  dst = "$S(BuildDir)/libs/TestLib.jar" /> 
+	</resourceCopies>
+	
+	<gameActivityImportAdditions>
+		<insert>
+			import com.example.mylibrary.*;
+			import android.Manifest;
+			import java.io.*;
+			import android.os.Vibrator;
+		</insert>
+   </gameActivityImportAdditions>
+	
+    <gameActivityClassAdditions>
+		<insert>
+			public void AndroidThunkJava_InitRecorder(String FilePath){
+				if(ExtAudioRecorder.DefaultObject != null){
+					ExtAudioRecorder.DefaultObject.reset();
+					
+					System.out.println("JNI-RecorderReset");
+				}else{
+					ExtAudioRecorder.CreateExtAudioRecorder();
+				}
+				
+				ExtAudioRecorder.DefaultObject.setOutputFile(FilePath);
+				new Thread("Test"){
+					@Override
+					public void run(){
+						ExtAudioRecorder.DefaultObject.prepare();
+						ExtAudioRecorder.DefaultObject.start();
+					}
+				}.start();
+				
+				System.out.println("JNI-RecorderStart");
+			}
+				
+			public void AndroidThunkJava_StopRecorder(){
+				try{
+					ExtAudioRecorder.DefaultObject.stop();
+					
+					System.out.println("JNI-RecorderStop");
+				}catch (Exception e){
+					System.out.println("JNI-RecorderError");
+				}
+			}
+			
+			public void AndroidThunkJava_PlayShake(){
+				Vibrator T = (Vibrator) getSystemService(VIBRATOR_SERVICE);
+				T.vibrate(30);
+			}
+			
+			public void AndroidThunkJava_DeleteFileFromPath(String FilePath){
+				File T = new File(FilePath);
+				AndroidThunkJava_deleteFile(T);
+			}
+			
+			private void AndroidThunkJava_deleteFile(File file) {
+				if (file.isDirectory()) {
+					File[] files = file.listFiles();
+					if(files.length == 0){
+						return;
+					}
+					for (int i = 0; i != files.length - 1; i++) {
+						File f = files[i];
+						AndroidThunkJava_deleteFile(f);
+					}
+					file.delete();
+				} else if (file.exists()) {
+					file.delete();
+				}
+			}
+		</insert>
+	</gameActivityClassAdditions>
+
+</root>

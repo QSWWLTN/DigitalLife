@@ -1,0 +1,9 @@
+{
+	"TargetArray": [
+		"DigitalLifeNameSpace.C_BaseAsk",
+		"DigitalLifeNameSpace.S_SwitchMesh",
+		"DigitalLifeNameSpace.S_AllowedSay",
+		"DigitalLifeNameSpace.C_SendData",
+		"DigitalLifeNameSpace.S_RetData"
+	]
+}
