@@ -1,6 +1,7 @@
 # DigitalLife
-#**下载前请先看完此教程先**
----
+
+# 下载前请先看完此教程先
+
 ## 使用版本
 - UE：5.0.3（可以升级到5.1.1，但需要将插件同样升级到5.1.1）
 - Protobuf：3.14.0
@@ -39,15 +40,25 @@
 
 ###	添加表情部分
 1. 在任意位置创建一个继承于ExpressionStruct的数据表
-> ####ExpressionStruct结构
+
+> #### ExpressionStruct结构
+
 > ID：表情命名，需要遵照MoodType枚举中规定的名称并以如：开心_1 命名，同时行命名必须与ID相同
+
 > ExpressionMap：表情字典，即变形目标名称+对应的想变化的值
+
 > Jump：废弃字段，不需要填写
+
 > ActionMap：人物状态字典，用于规定某个动作触发的概率
+
 > HaveExtraData：是否存在额外的数据，在蒙太奇中加入SwitchExpression通知后将会检查这个字段，如果为真的情况下，将会在原有的表情上额外添加变形目标变化，相当于在播放蒙太奇时加上额外表情
+
 > ExtraData：额外的表情，如果存在多个的情况下，将会随机抽取一个，注意，不要添加与ExpressionMap中一样的部分，比如2个同时调整了お变形目标，否则将会出现很奇怪的情况
+
 > PlayMontage：是否播放蒙太奇的权重
+
 > Montage：需要播放的蒙太奇列表，当出现多个的时候将随机抽取一个
+
 > DontSwitchState：在播放完后是否不要切换状态
 
 2. 添加完表情后打开UI目录下的StartWidget控件，将MorphTargetName改为你模型中嘴巴的变形目标名称，并将ExpressionTable修改为你刚才创建的数据表
@@ -68,7 +79,7 @@ BaseTargetActor的Say输入事件为Windows下的触发事件，SayPressed和Say
 ![iTjGOH.png](https://i.328888.xyz/2023/05/05/iTjGOH.png)
 
 ###	注意事项
-#1.MoodType枚举不允许修改！！！
+# 1.MoodType枚举不允许修改！！！
 
 2. StateType枚举可以随意修改，具体的状态可以自己实现，但正常状态和思考必须要保留
 
@@ -80,7 +91,7 @@ BaseTargetActor的Say输入事件为Windows下的触发事件，SayPressed和Say
 ## 对于会使用C++的玩家
 ### 如果只是想修改表情和动作的情况下，只需要看蓝图部分即可
 
-####切换通信协议
+#### 切换通信协议
 将T.Build.cs中的
 
     PublicDefinitions.Add("NO_PROTOBUF=1");   //不使用Protobuf协议
@@ -103,6 +114,7 @@ BaseTargetActor的Say输入事件为Windows下的触发事件，SayPressed和Say
 
 #### 概述
 C++部分其实没什么好说的，大部分的代码都是看一眼就知道怎么写的了，所以也不过多介绍了，根据上面的代码职责一个一个看过去就行了
+
 ---
 
 #### 末尾的一点话
