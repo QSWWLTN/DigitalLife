@@ -42,23 +42,23 @@
 1. 在任意位置创建一个继承于ExpressionStruct的数据表
 
 > #### ExpressionStruct结构
-
+>
 > ID：表情命名，需要遵照MoodType枚举中规定的名称并以如：开心_1 命名，同时行命名必须与ID相同
-
+>
 > ExpressionMap：表情字典，即变形目标名称+对应的想变化的值
-
+>
 > Jump：废弃字段，不需要填写
-
+>
 > ActionMap：人物状态字典，用于规定某个动作触发的概率
-
+>
 > HaveExtraData：是否存在额外的数据，在蒙太奇中加入SwitchExpression通知后将会检查这个字段，如果为真的情况下，将会在原有的表情上额外添加变形目标变化，相当于在播放蒙太奇时加上额外表情
-
+>
 > ExtraData：额外的表情，如果存在多个的情况下，将会随机抽取一个，注意，不要添加与ExpressionMap中一样的部分，比如2个同时调整了お变形目标，否则将会出现很奇怪的情况
-
+>
 > PlayMontage：是否播放蒙太奇的权重
-
+>
 > Montage：需要播放的蒙太奇列表，当出现多个的时候将随机抽取一个
-
+>
 > DontSwitchState：在播放完后是否不要切换状态
 
 2. 添加完表情后打开UI目录下的StartWidget控件，将MorphTargetName改为你模型中嘴巴的变形目标名称，并将ExpressionTable修改为你刚才创建的数据表
@@ -87,7 +87,6 @@ BaseTargetActor的Say输入事件为Windows下的触发事件，SayPressed和Say
 
 ---
 
----
 ## 对于会使用C++的玩家
 ### 如果只是想修改表情和动作的情况下，只需要看蓝图部分即可
 
