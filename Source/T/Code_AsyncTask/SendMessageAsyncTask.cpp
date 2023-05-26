@@ -13,7 +13,7 @@ void FSendMessageAsyncTask::DoWork() {
 	UClientGameInstance* T = Cast<UClientGameInstance>(Owner);
 	while (!bStop) {
 		FPlatformProcess::Sleep(0.5);
-		if (T->IsValidLowLevel() || Socket == nullptr || T->StopSocket) {
+		if (!T->IsValidLowLevel() || Socket == nullptr || T->StopSocket) {
 			break;
 		}
 
