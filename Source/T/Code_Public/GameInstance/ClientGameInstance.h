@@ -31,6 +31,16 @@ DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnPressKeyboard);
 
 DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnServerClose);
 
+USTRUCT(BlueprintType)
+struct FAttachWavFileInfo {
+	GENERATED_USTRUCT_BODY()
+public:
+	UPROPERTY(BlueprintReadWrite)
+		FString WavFilePath;
+	UPROPERTY(BlueprintReadWrite)
+		uint8 StateIndex;
+};
+
 UCLASS()
 class UClientGameInstance : public UGameInstance
 {
@@ -43,9 +53,9 @@ public:
 	virtual void Shutdown() override;
 
 public:
-	UFUNCTION(BlueprintCallable)
+	UFUNCTION(BlueprintCallable, meta = (ToolTip = "开启与服务器的连接"))
 		bool InitSocket(UDataTable* SettingTable);
-	UFUNCTION(BlueprintCallable)
+	UFUNCTION(BlueprintCallable, meta = (ToolTip = "开启与服务器的连接"))
 		bool InitSocketFromString(FString Host, int32 Port);
 	UFUNCTION(BlueprintCallable, BlueprintPure)
 		uint8 GetSocketState() {

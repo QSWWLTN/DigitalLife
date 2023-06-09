@@ -37,15 +37,6 @@ public:
 	UFUNCTION(BlueprintCallable)
 		void ApplySaveSet();
 	UFUNCTION(BlueprintCallable)
-		/*
-			设置Index对应的值
-			@param Index 控件编号
-			
-			0 - 保留
-			1 - 切换背景
-			2 - 限制FPS
-			3 - 全屏
-		*/
 		bool SetGameSaveObjectConfig(int32 Index, int32 Value);
 	UFUNCTION(BlueprintCallable, BlueprintPure)
 		bool GetGameSaveObjectConfig(int32 Index);

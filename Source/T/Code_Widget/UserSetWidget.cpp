@@ -12,7 +12,6 @@ void UUserSetWidget::InitWidget() {
 	if (UGameplayStatics::DoesSaveGameExist(TEXT("PlayerInfo"), 0)) {
 		UGameSaveObject* GameSaveObject = Cast<UGameSaveObject>(UGameplayStatics::LoadGameFromSlot(TEXT("PlayerInfo"), 0));
 
-		//设置激活后的颜色，可以加个FLinearColor来控制，但懒得搞了
 		if (GameSaveObject->Config[1]) {
 			SwitchBackground->SetBackgroundColor(FLinearColor(1.f, 1.f, 1.f, 0.6f));
 		}
@@ -25,6 +24,8 @@ void UUserSetWidget::InitWidget() {
 
 		UpdateSize->SetValue(GameSaveObject->FOVValue);
 		FOVValue = GameSaveObject->FOVValue;
+
+		//ApplySaveSet();
 	}
 }
 

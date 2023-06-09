@@ -86,10 +86,6 @@ void UTestFunctionLibrary::QS_DeleteFile(FString Path) {
 }
 
 void UTestFunctionLibrary::SetWindowsSize(FVector2D Size, bool Adsorption) {
-#if PLATFORM_ANDROID
-	return;
-#endif
-
 #if PLATFORM_WINDOWS
 	UGameEngine* GameEngine = Cast<UGameEngine>(GEngine);
 	if (!GameEngine->IsValidLowLevel()) {

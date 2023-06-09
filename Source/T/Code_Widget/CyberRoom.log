@@ -1,0 +1,997 @@
+﻿Log file open, 05/17/23 17:47:56
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogAndroid: Display: Choreographer set up.
+LogAndroid: event thread, Initial HW window lock.
+LogAndroid: Display: Android Version Make Model BuildNumber Language: 12 HUAWEI NOH-AN00 NOH-AN00 3.0.0.200(C00E190R6P12) zh_CN_#Hans
+LogAndroid: Case APP_CMD_START
+LogAndroid: Case APP_CMD_RESUME
+LogAndroid: PreInit android HW window lock.
+LogAndroid: Case APP_CMD_INPUT_CHANGED
+LogAndroid: Case APP_CMD_INIT_WINDOW
+LogAndroid: Case APP_CMD_GAINED_FOCUS
+LogAndroid: event thread, activate app, unlocking HW window
+LogCsvProfiler: Display: Metadata set : platform="Android"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.0-CL-20979098"
+LogCsvProfiler: Display: Metadata set : engineversion="5.0.3-20979098+++UE5+Release-5.0"
+LogCsvProfiler: Display: Metadata set : commandline="" ../../../CyberRoom/CyberRoom.uproject""
+LogCsvProfiler: Display: Metadata set : os="Android 12"
+LogCsvProfiler: Display: Metadata set : cpu="HUAWEI|NOH-AN00|kirin9000"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : loginid="312474371C7C426D9315EEEAC63621B2"
+LogCsvProfiler: Display: Metadata set : deviceid="80b4ac11b71c385f"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogInit: Display: Project file not found: ../../../CyberRoom/CyberRoom.uproject
+LogInit: Display: 	Attempting to find via project info helper.
+LogUProjectInfo: Found projects:
+LogTemp: 8 cores and 8 assignable cores
+LogIoDispatcher: Display: Reading toc: ../../../CyberRoom/Content/Paks/global.utoc
+LogIoDispatcher: Display: Toc signature hash: 0000000000000000000000000000000000000000
+LogIoDispatcher: Display: Mounting container '../../../CyberRoom/Content/Paks/global.utoc' in location slot 0
+LogPakFile: Display: Initialized I/O dispatcher file backend. Mounted the global container: ../../../CyberRoom/Content/Paks/global.utoc
+LogPakFile: Display: Found Pak file CyberRoom/Content/Paks/pakchunk0-Android_ASTC.pak attempting to mount.
+LogPakFile: Display: Mounting pak file CyberRoom/Content/Paks/pakchunk0-Android_ASTC.pak.
+LogIoDispatcher: Display: Reading toc: CyberRoom/Content/Paks/pakchunk0-Android_ASTC.utoc
+LogIoDispatcher: Display: Toc signature hash: 0000000000000000000000000000000000000000
+LogIoDispatcher: Display: Mounting container 'CyberRoom/Content/Paks/pakchunk0-Android_ASTC.utoc' in location slot 0
+LogPakFile: Display: Mounted IoStore container "CyberRoom/Content/Paks/pakchunk0-Android_ASTC.utoc"
+LogPakFile: Display: Mounted Pak file 'CyberRoom/Content/Paks/pakchunk0-Android_ASTC.pak', mount point: '../../../'
+LogStats: Stats thread started at 0.592823
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +8:00, Platform Override: ''
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Android-59E52FA24D5F4487B459919A2A84C3C0
+         Session CrashGUID >====================================================
+LogAndroid: Vulkan library detected, checking for available driver
+LogAndroid: VulkanRHI is available, Vulkan capable device detected.
+LogPluginManager: Mounting Project plugin AnimatedTexture
+LogPluginManager: Mounting Project plugin BlurGlass
+LogPluginManager: Mounting Project plugin HotPatcher
+LogPluginManager: Mounting Project plugin OCUI
+LogPluginManager: Mounting Project plugin PathFollow
+LogPluginManager: Mounting Engine plugin Paper2D
+LogPluginManager: Mounting Engine plugin AISupport
+LogPluginManager: Mounting Engine plugin EnvironmentQueryEditor
+LogPluginManager: Mounting Engine plugin ControlRig
+LogPluginManager: Mounting Engine plugin ControlRigSpline
+LogPluginManager: Mounting Engine plugin IKRig
+LogPluginManager: Mounting Engine plugin CameraShakePreviewer
+LogPluginManager: Mounting Engine plugin GameplayCameras
+LogPluginManager: Mounting Engine plugin OodleNetwork
+LogPluginManager: Mounting Engine plugin AnimationSharing
+LogPluginManager: Mounting Engine plugin PluginUtils
+LogPluginManager: Mounting Engine plugin UObjectPlugin
+LogPluginManager: Mounting Engine plugin AssetManagerEditor
+LogPluginManager: Mounting Engine plugin AssetReferenceRestrictions
+LogPluginManager: Mounting Engine plugin DataValidation
+LogPluginManager: Mounting Engine plugin EditorScriptingUtilities
+LogPluginManager: Mounting Engine plugin FacialAnimation
+LogPluginManager: Mounting Engine plugin GameplayTagsEditor
+LogPluginManager: Mounting Engine plugin GeometryMode
+LogPluginManager: Mounting Engine plugin ModelingToolsEditorMode
+LogPluginManager: Mounting Engine plugin SequencerAnimTools
+LogPluginManager: Mounting Engine plugin SpeedTreeImporter
+LogPluginManager: Mounting Engine plugin StylusInput
+LogPluginManager: Mounting Engine plugin DatasmithContent
+LogPluginManager: Mounting Engine plugin VariantManagerContent
+LogPluginManager: Mounting Engine plugin AutomationUtils
+LogPluginManager: Mounting Engine plugin BackChannel
+LogPluginManager: Mounting Engine plugin ChaosCloth
+LogPluginManager: Mounting Engine plugin ChaosClothEditor
+LogPluginManager: Mounting Engine plugin ChaosEditor
+LogPluginManager: Mounting Engine plugin ChaosNiagara
+LogPluginManager: Mounting Engine plugin ChaosSolverPlugin
+LogPluginManager: Mounting Engine plugin CharacterAI
+LogPluginManager: Mounting Engine plugin FullBodyIK
+LogPluginManager: Mounting Engine plugin GameFeatures
+LogPluginManager: Mounting Engine plugin GeometryCollectionPlugin
+LogPluginManager: Mounting Engine plugin GeometryFlow
+LogPluginManager: Mounting Engine plugin MeshLODToolset
+LogPluginManager: Mounting Engine plugin ModularGameplay
+LogPluginManager: Mounting Engine plugin PanoramicCapture
+LogPluginManager: Mounting Engine plugin PlatformCrypto
+LogPluginManager: Mounting Engine plugin PythonScriptPlugin
+LogPluginManager: Mounting Engine plugin StaticMeshEditorModeling
+LogPluginManager: Mounting Engine plugin UVEditor
+LogPluginManager: Mounting Engine plugin Niagara
+LogPluginManager: Mounting Engine plugin AlembicImporter
+LogPluginManager: Mounting Engine plugin AndroidMedia
+LogPluginManager: Mounting Engine plugin ElectraCDM
+LogPluginManager: Mounting Engine plugin ElectraPlayer
+LogPluginManager: Mounting Engine plugin ElectraSubtitles
+LogPluginManager: Mounting Engine plugin ElectraUtil
+LogPluginManager: Mounting Engine plugin ImgMedia
+LogPluginManager: Mounting Engine plugin MediaCompositing
+LogPluginManager: Mounting Engine plugin MfMedia
+LogPluginManager: Mounting Engine plugin MeshPainting
+LogPluginManager: Mounting Engine plugin TcpMessaging
+LogPluginManager: Mounting Engine plugin UdpMessaging
+LogPluginManager: Mounting Engine plugin ActorSequence
+LogPluginManager: Mounting Engine plugin LevelSequenceEditor
+LogPluginManager: Mounting Engine plugin MatineeToLevelSequence
+LogPluginManager: Mounting Engine plugin SequencerScripting
+LogPluginManager: Mounting Engine plugin TemplateSequence
+LogPluginManager: Mounting Engine plugin OnlineServices
+LogPluginManager: Mounting Engine plugin OnlineBase
+LogPluginManager: Mounting Engine plugin OnlineSubsystem
+LogPluginManager: Mounting Engine plugin OnlineSubsystemNull
+LogPluginManager: Mounting Engine plugin OnlineSubsystemUtils
+LogPluginManager: Mounting Engine plugin ActorLayerUtilities
+LogPluginManager: Mounting Engine plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin AndroidFileServer
+LogPluginManager: Mounting Engine plugin AndroidMoviePlayer
+LogPluginManager: Mounting Engine plugin AndroidPermission
+LogPluginManager: Mounting Engine plugin AppleImageUtils
+LogPluginManager: Mounting Engine plugin ArchVisCharacter
+LogPluginManager: Mounting Engine plugin AssetTags
+LogPluginManager: Mounting Engine plugin AudioCapture
+LogPluginManager: Mounting Engine plugin AudioSynesthesia
+LogPluginManager: Mounting Engine plugin CableComponent
+LogPluginManager: Mounting Engine plugin ChunkDownloader
+LogPluginManager: Mounting Engine plugin CustomMeshComponent
+LogPluginManager: Mounting Engine plugin DataRegistry
+LogPluginManager: Mounting Engine plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin GameplayAbilities
+LogPluginManager: Mounting Engine plugin GeometryCache
+LogPluginManager: Mounting Engine plugin GeometryProcessing
+LogPluginManager: Mounting Engine plugin GoogleCloudMessaging
+LogPluginManager: Mounting Engine plugin GooglePAD
+LogPluginManager: Mounting Engine plugin HDRIBackdrop
+LogPluginManager: Mounting Engine plugin LocationServicesBPLibrary
+LogPluginManager: Mounting Engine plugin MobilePatchingUtils
+LogPluginManager: Mounting Engine plugin ProceduralMeshComponent
+LogPluginManager: Mounting Engine plugin PropertyAccessEditor
+LogPluginManager: Mounting Engine plugin ResonanceAudio
+LogPluginManager: Mounting Engine plugin RuntimePhysXCooking
+LogPluginManager: Mounting Engine plugin SignificanceManager
+LogPluginManager: Mounting Engine plugin SoundFields
+LogPluginManager: Mounting Engine plugin Synthesis
+LogPackageName: Display: FPackageName: Mount point added: '../../../CyberRoom/Plugins/AnimatedTexture/Content/' mounted to '/AnimatedTexture/'
+LogPackageName: Display: FPackageName: Mount point added: '../../../CyberRoom/Plugins/BlurGlass/Content/' mounted to '/BlurGlass/'
+LogPackageName: Display: FPackageName: Mount point added: '../../../CyberRoom/Plugins/HotPatcher/Content/' mounted to '/HotPatcher/'
+LogPackageName: Display: FPackageName: Mount point added: '../../../CyberRoom/Plugins/OCUI/Content/' mounted to '/OCUI/'
+LogPackageName: Display: FPackageName: Mount point added: '../../../CyberRoom/Plugins/PathFollow/Content/' mounted to '/PathFollow/'
+LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/2D/Paper2D/Content/' mounted to '/Paper2D/'
+LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Animation/ControlRig/Content/' mounted to '/ControlRig/'
+LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Animation/ControlRigSpline/Content/' mounted to '/ControlRigSpline/'
+LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Animation/IKRig/Content/' mounted to '/IKRig/'
+LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Developer/AnimationSharing/Content/' mounted to '/AnimationSharing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Editor/GeometryMode/Content/' mounted to '/GeometryMode/'
+LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Editor/ModelingToolsEditorMode/Content/' mounted to '/ModelingToolsEditorMode/'
+LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/' mounted to '/SpeedTreeImporter/'
+LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Enterprise/DatasmithContent/Content/' mounted to '/DatasmithContent/'
+LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Experimental/ChaosClothEditor/Content/' mounted to '/ChaosClothEditor/'
+LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Experimental/ChaosNiagara/Content/' mounted to '/ChaosNiagara/'
+LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Experimental/ChaosSolverPlugin/Content/' mounted to '/ChaosSolverPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Experimental/FullBodyIK/Content/' mounted to '/FullBodyIK/'
+LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Experimental/GeometryCollectionPlugin/Content/' mounted to '/GeometryCollectionPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Experimental/GeometryFlow/Content/' mounted to '/GeometryFlow/'
+LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Experimental/MeshLODToolset/Content/' mounted to '/MeshLODToolset/'
+LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Experimental/PanoramicCapture/Content/' mounted to '/PanoramicCapture/'
+LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Experimental/PythonScriptPlugin/Content/' mounted to '/PythonScriptPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Experimental/StaticMeshEditorModeling/Content/' mounted to '/StaticMeshEditorModeling/'
+LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Experimental/UVEditor/Content/' mounted to '/UVEditor/'
+LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/FX/Niagara/Content/' mounted to '/Niagara/'
+LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Media/MediaCompositing/Content/' mounted to '/MediaCompositing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/MovieScene/SequencerScripting/Content/' mounted to '/SequencerScripting/'
+LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Runtime/AudioSynesthesia/Content/' mounted to '/AudioSynesthesia/'
+LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Runtime/GeometryProcessing/Content/' mounted to '/GeometryProcessing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Runtime/HDRIBackdrop/Content/' mounted to '/HDRIBackdrop/'
+LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Runtime/ResonanceAudio/Content/' mounted to '/ResonanceAudio/'
+LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Runtime/Synthesis/Content/' mounted to '/Synthesis/'
+LogInit: Using libcurl 7.75.0
+LogInit:  - built for aarch64-unknown-linux-android
+LogInit:  - supports SSL with OpenSSL/1.1.1k
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.11
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_TLSAUTH_SRP
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: Display: OSS: OnlineSubsystemGooglePlayModule::StartupModule()
+LogOnline: Warning: OSS: FOnlineSubsystemGooglePlayModule was disabled
+LogOnline: OSS: Unable to create OnlineSubsystem module GooglePlay
+LogOnline: OSS: Created online subsystem instance for: NULL
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogOnline: Warning: OSS: FOnlineSubsystemGooglePlayModule was disabled
+LogInit: Build: ++UE5+Release-5.0-CL-20979098
+LogInit: Engine Version: 5.0.3-20979098+++UE5+Release-5.0
+LogInit: Compatible Engine Version: 5.0.0-19505902+++UE5+Release-5.0
+LogInit: Net CL: 19505902
+LogInit: OS: Android (12), CPU: NOH-AN00, GPU: Mali-G78
+LogInit: Compiled (64-bit): Jul  7 2022 02:56:36
+LogInit: Compiled with Clang: 9.0.8 (https://android.googlesource.com/toolchain/llvm-project e0caee08e5f09b374a27a676d04978c81fcb1928)
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE5+Release-5.0
+LogInit: Command Line: 
+LogInit: Base Directory: 
+LogInit: Allocator: binned2
+LogInit: Installed Engine Build: 0
+LogDevObjectVersion: Number of dev versions registered: 34
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 20
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 45
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 59
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 3
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   UE5-Main (697DD581-E64F-41AB-AA4A-51ECBEB7B628): 59
+LogDevObjectVersion:   UE5-Release (D89B5E42-24BD-4D46-8412-ACA8DF641779): 36
+LogDevObjectVersion:   UE5-PrivateFrosty (59DA5D52-1232-4948-B878-597870B8E98B): 8
+LogDevObjectVersion:   UE5-Dev-Cooker (26075A32-730F-4708-88E9-8C32F1599D05): 0
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogDevObjectVersion:   UE5-Dev-LWCRendering (30D58BE3-95EA-4282-A6E3-B159D8EBB06A): 1
+LogInit: Presizing for max 131072 objects, including 1 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogStreaming: Display: AsyncLoading2 - Created: Event Driven Loader: true, Async Loading Thread: true, Async Post Load: true
+LogStreaming: Display: AsyncLoading2 - Initialized
+LogInit: Object subsystem initialized
+LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+LogConfig: CVar [[r.DetectAndWarnOfBadDrivers:0]] deferred - dummy variable created
+LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+LogConfig: CVar [[QualityLevelMapping:low]] deferred - dummy variable created
+[2023.05.17-09.47.56:351][  0]LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+[2023.05.17-09.47.56:351][  0]LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+[2023.05.17-09.47.56:351][  0]LogConfig: CVar [[r.DetectAndWarnOfBadDrivers:0]] deferred - dummy variable created
+[2023.05.17-09.47.56:351][  0]LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+[2023.05.17-09.47.56:351][  0]LogConfig: CVar [[QualityLevelMapping:low]] deferred - dummy variable created
+[2023.05.17-09.47.56:351][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [Engine]
+[2023.05.17-09.47.56:351][  0]LogConfig: CVar [[VisualizeCalibrationColorMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationColor.PPM_DefaultCalibrationColor]] deferred - dummy variable created
+[2023.05.17-09.47.56:351][  0]LogConfig: CVar [[VisualizeCalibrationGrayscaleMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale.PPM_DefaultCalibrationGrayscale]] deferred - dummy variable created
+[2023.05.17-09.47.56:351][  0]LogConfig: CVar [[MaxSkinBones:(Default=65536,PerPlatform=(("Mobile", 256)))]] deferred - dummy variable created
+[2023.05.17-09.47.56:351][  0]LogConfig: CVar [[WorkingColorSpaceChoice:sRGB]] deferred - dummy variable created
+[2023.05.17-09.47.56:351][  0]LogConfig: CVar [[RedChromaticityCoordinate:(X=0.640000,Y=0.330000)]] deferred - dummy variable created
+[2023.05.17-09.47.56:351][  0]LogConfig: CVar [[GreenChromaticityCoordinate:(X=0.300000,Y=0.600000)]] deferred - dummy variable created
+[2023.05.17-09.47.56:351][  0]LogConfig: CVar [[BlueChromaticityCoordinate:(X=0.150000,Y=0.060000)]] deferred - dummy variable created
+[2023.05.17-09.47.56:351][  0]LogConfig: CVar [[WhiteChromaticityCoordinate:(X=0.312700,Y=0.329000)]] deferred - dummy variable created
+[2023.05.17-09.47.56:352][  0]LogConfig: CVar [[TranslucentSortAxis:(X=0.000000,Y=-1.000000,Z=0.000000)]] deferred - dummy variable created
+[2023.05.17-09.47.56:352][  0]LogConfig: CVar [[bDefaultParticleCutouts:0]] deferred - dummy variable created
+[2023.05.17-09.47.56:352][  0]LogConfig: CVar [[bStreamSkeletalMeshLODs:(Default=False,PerPlatform=())]] deferred - dummy variable created
+[2023.05.17-09.47.56:352][  0]LogConfig: CVar [[bDiscardSkeletalMeshOptionalLODs:(Default=False,PerPlatform=())]] deferred - dummy variable created
+[2023.05.17-09.47.56:352][  0]LogConfig: CVar [[VisualizeCalibrationCustomMaterialPath:None]] deferred - dummy variable created
+[2023.05.17-09.47.56:352][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [Engine]
+[2023.05.17-09.47.56:352][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [Engine]
+[2023.05.17-09.47.56:352][  0]LogConfig: CVar [[s.MaxPackageSummarySize:16384]] deferred - dummy variable created
+[2023.05.17-09.47.56:352][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__SoundBase]] deferred - dummy variable created
+[2023.05.17-09.47.56:352][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__MaterialInterface]] deferred - dummy variable created
+[2023.05.17-09.47.56:352][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__DeviceProfileManager]] deferred - dummy variable created
+[2023.05.17-09.47.56:352][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [Engine]
+[2023.05.17-09.47.56:352][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [Engine]
+[2023.05.17-09.47.56:352][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Average",ToolTip="Simulates average internet conditions")]] deferred - dummy variable created
+[2023.05.17-09.47.56:352][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Bad",ToolTip="Simulates laggy internet conditions")]] deferred - dummy variable created
+[2023.05.17-09.47.56:352][  0]LogAndroid: Mobile HDR: YES
+[2023.05.17-09.47.56:352][  0]LogAndroidWindowUtils: Setting Width=1544 and Height=720 (requested scale = 1.000000)
+[2023.05.17-09.47.56:352][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [Scalability]
+[2023.05.17-09.47.56:352][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Scalability]
+[2023.05.17-09.47.56:352][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Scalability]
+[2023.05.17-09.47.56:352][  0]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@3] File [Scalability]
+[2023.05.17-09.47.56:352][  0]LogConfig: Applying CVar settings from Section [ReflectionQuality@3] File [Scalability]
+[2023.05.17-09.47.56:352][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [Scalability]
+[2023.05.17-09.47.56:353][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [Scalability]
+[2023.05.17-09.47.56:353][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [Scalability]
+[2023.05.17-09.47.56:353][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [Scalability]
+[2023.05.17-09.47.56:353][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [Scalability]
+[2023.05.17-09.47.56:353][  0]LogConfig: CVar [[r.HairStrands.Interpolation.UseSingleGuide:0]] deferred - dummy variable created
+[2023.05.17-09.47.56:354][  0]LogAndroid: Checking 33 rules from DeviceProfile ini file.
+[2023.05.17-09.47.56:354][  0]LogAndroid:   Default profile: Android_Default
+[2023.05.17-09.47.56:354][  0]LogAndroid:   Android selector params: 
+[2023.05.17-09.47.56:354][  0]LogAndroid:   SRC_GPUFamily: Mali-G78
+[2023.05.17-09.47.56:354][  0]LogAndroid:   SRC_GLVersion: OpenGL ES 3.2 v1.r34p0-01eac0.a1b116bd871d46ef040e8feef9ed691e
+[2023.05.17-09.47.56:354][  0]LogAndroid:   SRC_VulkanAvailable: true
+[2023.05.17-09.47.56:354][  0]LogAndroid:   SRC_VulkanVersion: 1.1.191
+[2023.05.17-09.47.56:354][  0]LogAndroid:   SRC_AndroidVersion: 12
+[2023.05.17-09.47.56:354][  0]LogAndroid:   SRC_DeviceMake: HUAWEI
+[2023.05.17-09.47.56:354][  0]LogAndroid:   SRC_DeviceModel: NOH-AN00
+[2023.05.17-09.47.56:355][  0]LogAndroid:   SRC_DeviceBuildNumber: NOH-AN00 3.0.0.200(C00E190R6P12)
+[2023.05.17-09.47.56:355][  0]LogAndroid:   SRC_UsingHoudini: false
+[2023.05.17-09.47.56:355][  0]LogAndroid:   SRC_Hardware: kirin9000
+[2023.05.17-09.47.56:355][  0]LogAndroid:   SRC_Chipset: unknown
+[2023.05.17-09.47.56:355][  0]LogAndroid:   SRC_HMDSystemName: 
+[2023.05.17-09.47.56:355][  0]LogAndroid:   SRC_TotalPhysicalGB: 7
+[2023.05.17-09.47.56:355][  0]LogAndroid:   SRC_ConfigRuleVar[SRC_DeviceModel]: NOH-AN00
+[2023.05.17-09.47.56:355][  0]LogAndroid:   SRC_ConfigRuleVar[SRC_GpuVendor]: ARM
+[2023.05.17-09.47.56:355][  0]LogAndroid:   SRC_ConfigRuleVar[screenWidth]: 2772
+[2023.05.17-09.47.56:355][  0]LogAndroid:   SRC_ConfigRuleVar[memory]: 7427
+[2023.05.17-09.47.56:355][  0]LogAndroid:   SRC_ConfigRuleVar[SRC_DeviceMake]: HUAWEI
+[2023.05.17-09.47.56:355][  0]LogAndroid:   SRC_ConfigRuleVar[SRC_UsingHoudini]: false
+[2023.05.17-09.47.56:355][  0]LogAndroid:   SRC_ConfigRuleVar[ro.hardware]: kirin9000
+[2023.05.17-09.47.56:355][  0]LogAndroid:   SRC_ConfigRuleVar[SRC_AndroidVersion]: 12
+[2023.05.17-09.47.56:355][  0]LogAndroid:   SRC_ConfigRuleVar[SRC_VulkanAvailable]: true
+[2023.05.17-09.47.56:355][  0]LogAndroid:   SRC_ConfigRuleVar[OverrideProfile]: true
+[2023.05.17-09.47.56:355][  0]LogAndroid:   SRC_ConfigRuleVar[SRC_VulkanVersion]: 1.1.0
+[2023.05.17-09.47.56:355][  0]LogAndroid:   SRC_ConfigRuleVar[configRulesVersion]: 0
+[2023.05.17-09.47.56:355][  0]LogAndroid:   SRC_ConfigRuleVar[unsupportedDevice]: false
+[2023.05.17-09.47.56:355][  0]LogAndroid:   SRC_ConfigRuleVar[statusBarHeight]: 126
+[2023.05.17-09.47.56:355][  0]LogAndroid:   SRC_ConfigRuleVar[navigationBarHeight]: 136
+[2023.05.17-09.47.56:355][  0]LogAndroid:   SRC_ConfigRuleVar[SRC_SDKLevel]: 31
+[2023.05.17-09.47.56:355][  0]LogAndroid:   SRC_ConfigRuleVar[hardware]: kirin9000
+[2023.05.17-09.47.56:355][  0]LogAndroid:   SRC_ConfigRuleVar[processorCount]: 8
+[2023.05.17-09.47.56:355][  0]LogAndroid:   SRC_ConfigRuleVar[earlyrestart]: true
+[2023.05.17-09.47.56:355][  0]LogAndroid:   SRC_ConfigRuleVar[SRC_GpuFamily]: Mali-G78
+[2023.05.17-09.47.56:355][  0]LogAndroid:   SRC_ConfigRuleVar[supportsFloatingPointRenderTargets]: true
+[2023.05.17-09.47.56:355][  0]LogAndroid:   SRC_ConfigRuleVar[screenHeight]: 1288
+[2023.05.17-09.47.56:355][  0]LogAndroid:   SRC_ConfigRuleVar[littleCoreMask]: 0x0
+[2023.05.17-09.47.56:355][  0]LogAndroid:   SRC_ConfigRuleVar[processor]: 
+[2023.05.17-09.47.56:355][  0]LogAndroid:   SRC_ConfigRuleVar[SRC_HMDSystemName]: 
+[2023.05.17-09.47.56:355][  0]LogAndroid:   SRC_ConfigRuleVar[SRC_DeviceBuildNumber]: NOH-AN00 3.0.0.200(C00E190R6P12)
+[2023.05.17-09.47.56:355][  0]LogAndroid:   SRC_ConfigRuleVar[isARM64]: true
+[2023.05.17-09.47.56:355][  0]LogAndroid:   SRC_ConfigRuleVar[hasNEON]: true
+[2023.05.17-09.47.56:355][  0]LogAndroid:   SRC_ConfigRuleVar[TextureFormats]: ASTC,ETC2,ETC1
+[2023.05.17-09.47.56:355][  0]LogAndroid:   SRC_ConfigRuleVar[bigCoreMask]: 0xffff
+[2023.05.17-09.47.56:355][  0]LogAndroid:   SRC_ConfigRuleVar[useAffinity]: false
+[2023.05.17-09.47.56:355][  0]LogAndroid:   SRC_ConfigRuleVar[SRC_GlVersion]: OpenGL ES 3.2 v1.r34p0-01eac0.a1b116bd871d46ef040e8feef9ed691e
+[2023.05.17-09.47.56:357][  0]LogAndroid: Selected Device Profile: [Android_Mali_G78_Vulkan]
+[2023.05.17-09.47.56:357][  0]LogDeviceProfileManager: Applying CVar settings loaded from the selected device profile: [Android_Mali_G78_Vulkan]
+[2023.05.17-09.47.56:357][  0]LogHAL: Display: Platform has ~ 7 GB [7788519424 / 8589934592 / 8], which maps to Larger [LargestMinGB=8, LargerMinGB=6, DefaultMinGB=4, SmallerMinGB=3, SmallestMinGB=0)
+[2023.05.17-09.47.56:357][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[r.Android.DisableVulkanSupport:0 -> 0]]
+[2023.05.17-09.47.56:357][  0]LogDeviceProfileManager: Going up to parent DeviceProfile [Android_Mali_G78]
+[2023.05.17-09.47.56:357][  0]LogDeviceProfileManager: Going up to parent DeviceProfile [Android_High]
+[2023.05.17-09.47.56:357][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[sg.ViewDistanceQuality:3 -> 2]]
+[2023.05.17-09.47.56:357][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@2] File [Scalability]
+[2023.05.17-09.47.56:357][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[sg.AntiAliasingQuality:3 -> 2]]
+[2023.05.17-09.47.56:357][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@2] File [Scalability]
+[2023.05.17-09.47.56:357][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[sg.ShadowQuality:3 -> 2]]
+[2023.05.17-09.47.56:357][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@2] File [Scalability]
+[2023.05.17-09.47.56:357][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[sg.PostProcessQuality:3 -> 2]]
+[2023.05.17-09.47.56:357][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@2] File [Scalability]
+[2023.05.17-09.47.56:357][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[sg.TextureQuality:3 -> 2]]
+[2023.05.17-09.47.56:357][  0]LogConfig: Applying CVar settings from Section [TextureQuality@2] File [Scalability]
+[2023.05.17-09.47.56:357][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[sg.EffectsQuality:3 -> 2]]
+[2023.05.17-09.47.56:357][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@2] File [Scalability]
+[2023.05.17-09.47.56:358][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[sg.FoliageQuality:3 -> 2]]
+[2023.05.17-09.47.56:358][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@2] File [Scalability]
+[2023.05.17-09.47.56:358][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[r.MobileContentScaleFactor:1 -> 1.0]]
+[2023.05.17-09.47.56:358][  0]LogDeviceProfileManager: Going up to parent DeviceProfile [Android]
+[2023.05.17-09.47.56:358][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[slate.AbsoluteIndices:0 -> 1]]
+[2023.05.17-09.47.56:358][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[r.Vulkan.DelayAcquireBackBuffer:1 -> 2]]
+[2023.05.17-09.47.56:358][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[r.Vulkan.RobustBufferAccess:1 -> 1]]
+[2023.05.17-09.47.56:358][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[r.Vulkan.DescriptorSetLayoutMode:0 -> 2]]
+[2023.05.17-09.47.56:358][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[r.Android.DisableVulkanSM5Support:0 -> 1]]
+[2023.05.17-09.47.56:358][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[r.DefaultBackBufferPixelFormat:4 -> 0]]
+[2023.05.17-09.47.56:358][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2023.05.17-09.47.56:358][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2023.05.17-09.47.56:358][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2023.05.17-09.47.56:358][  0]LogConfig: CVar [[Slate.CacheRenderData:0]] deferred - dummy variable created
+[2023.05.17-09.47.56:358][  0]LogConfig: CVar [[TaskGraph.EnablePowerSavingThreadPriorityReduction:1]] deferred - dummy variable created
+[2023.05.17-09.47.56:361][  0]LogAndroid: Display: Detected thermal sensor `soc_thermal` at /sys/devices/virtual/thermal/thermal_zone0/temp
+[2023.05.17-09.47.56:361][  0]LogAndroid: Display: Selecting thermal sensor located at `/sys/devices/virtual/thermal/thermal_zone1/temp`
+[2023.05.17-09.47.56:361][  0]LogInit:  - This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+[2023.05.17-09.47.56:361][  0]LogInit: Memory total: Physical=7427.71MB (8GB approx) Available=4555.40MB PageSize=4.0KB
+[2023.05.17-09.47.56:361][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2023.05.17-09.47.56:364][  0]LogInit: Physics initialised using underlying interface: Chaos
+[2023.05.17-09.47.56:365][  0]LogInit: Using OS detected language (zh-CN-HANS).
+[2023.05.17-09.47.56:365][  0]LogInit: Using OS detected locale (zh-CN-HANS).
+[2023.05.17-09.47.56:365][  0]LogTextLocalizationManager: No localization for 'zh-CN-HANS' exists, so 'en' will be used for the language.
+[2023.05.17-09.47.56:365][  0]LogTextLocalizationManager: No localization for 'zh-CN-HANS' exists, so 'en' will be used for the locale.
+[2023.05.17-09.47.56:401][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2023.05.17-09.47.56:401][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2023.05.17-09.47.56:402][  0]LogAndroid: VulkanRHI will be used!
+[2023.05.17-09.47.56:404][  0]LogAndroid: Vulkan SM5 is available but disabled for this device.
+[2023.05.17-09.47.56:404][  0]LogAndroid: Unlocking android HW window during preinit.
+[2023.05.17-09.47.56:405][  0]LogVulkanRHI: Display: - Found 1 instance layers
+[2023.05.17-09.47.56:405][  0]LogVulkanRHI: Display: * VK_LAYER_KHRONOS_validation
+[2023.05.17-09.47.56:405][  0]LogVulkanRHI: Display: - Found 11 instance extensions
+[2023.05.17-09.47.56:405][  0]LogVulkanRHI: Display: * VK_EXT_debug_report
+[2023.05.17-09.47.56:405][  0]LogVulkanRHI: Display: * VK_EXT_debug_utils
+[2023.05.17-09.47.56:405][  0]LogVulkanRHI: Display: * VK_EXT_swapchain_colorspace
+[2023.05.17-09.47.56:405][  0]LogVulkanRHI: Display: * VK_KHR_android_surface
+[2023.05.17-09.47.56:405][  0]LogVulkanRHI: Display: * VK_KHR_device_group_creation
+[2023.05.17-09.47.56:405][  0]LogVulkanRHI: Display: * VK_KHR_external_fence_capabilities
+[2023.05.17-09.47.56:405][  0]LogVulkanRHI: Display: * VK_KHR_external_memory_capabilities
+[2023.05.17-09.47.56:405][  0]LogVulkanRHI: Display: * VK_KHR_external_semaphore_capabilities
+[2023.05.17-09.47.56:405][  0]LogVulkanRHI: Display: * VK_KHR_get_physical_device_properties2
+[2023.05.17-09.47.56:405][  0]LogVulkanRHI: Display: * VK_KHR_get_surface_capabilities2
+[2023.05.17-09.47.56:405][  0]LogVulkanRHI: Display: * VK_KHR_surface
+[2023.05.17-09.47.56:405][  0]LogVulkanRHI: Display: Not using instance layers
+[2023.05.17-09.47.56:405][  0]LogVulkanRHI: Display: Using instance extensions
+[2023.05.17-09.47.56:405][  0]LogVulkanRHI: Display: * VK_KHR_surface
+[2023.05.17-09.47.56:405][  0]LogVulkanRHI: Display: * VK_KHR_android_surface
+[2023.05.17-09.47.56:405][  0]LogVulkanRHI: Display: * VK_KHR_external_memory_capabilities
+[2023.05.17-09.47.56:405][  0]LogVulkanRHI: Display: * VK_KHR_get_physical_device_properties2
+[2023.05.17-09.47.56:408][  0]LogVulkanRHI: Display: Found 1 device(s)
+[2023.05.17-09.47.56:408][  0]LogVulkanRHI: bHasGoogleDisplayTiming = 1
+[2023.05.17-09.47.56:408][  0]LogVulkanRHI: Display: Device 0: Mali-G78
+[2023.05.17-09.47.56:408][  0]LogVulkanRHI: Display: - API 1.1.191(0x4010bf) Driver 0x8800000 VendorId 0x13b5
+[2023.05.17-09.47.56:408][  0]LogVulkanRHI: Display: - DeviceID 0x92020010 Type Integrated GPU
+[2023.05.17-09.47.56:408][  0]LogVulkanRHI: Display: - Max Descriptor Sets Bound 4 Timestamps 1
+[2023.05.17-09.47.56:408][  0]LogVulkanRHI: Display: -    Found device extension VK_ANDROID_external_memory_android_hardware_buffer
+[2023.05.17-09.47.56:408][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_4444_formats
+[2023.05.17-09.47.56:408][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_astc_decode_mode
+[2023.05.17-09.47.56:408][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_calibrated_timestamps
+[2023.05.17-09.47.56:408][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_custom_border_color
+[2023.05.17-09.47.56:408][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_descriptor_indexing
+[2023.05.17-09.47.56:408][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_device_memory_report
+[2023.05.17-09.47.56:408][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_external_memory_dma_buf
+[2023.05.17-09.47.56:408][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_fragment_density_map
+[2023.05.17-09.47.56:408][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_fragment_density_map2
+[2023.05.17-09.47.56:408][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_global_priority
+[2023.05.17-09.47.56:408][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_hdr_metadata
+[2023.05.17-09.47.56:408][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_host_query_reset
+[2023.05.17-09.47.56:408][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_image_drm_format_modifier
+[2023.05.17-09.47.56:408][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_image_robustness
+[2023.05.17-09.47.56:408][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_index_type_uint8
+[2023.05.17-09.47.56:408][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_inline_uniform_block
+[2023.05.17-09.47.56:408][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_line_rasterization
+[2023.05.17-09.47.56:408][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_pipeline_creation_cache_control
+[2023.05.17-09.47.56:408][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_primitive_topology_list_restart
+[2023.05.17-09.47.56:408][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_provoking_vertex
+[2023.05.17-09.47.56:408][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_queue_family_foreign
+[2023.05.17-09.47.56:408][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_rgba10x6_formats
+[2023.05.17-09.47.56:408][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_scalar_block_layout
+[2023.05.17-09.47.56:408][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_separate_stencil_usage
+[2023.05.17-09.47.56:408][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_shader_subgroup_ballot
+[2023.05.17-09.47.56:408][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_shader_subgroup_vote
+[2023.05.17-09.47.56:408][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_subgroup_size_control
+[2023.05.17-09.47.56:408][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_texel_buffer_alignment
+[2023.05.17-09.47.56:409][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_texture_compression_astc_hdr
+[2023.05.17-09.47.56:409][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_transform_feedback
+[2023.05.17-09.47.56:409][  0]LogVulkanRHI: Display: -    Found device extension VK_GOOGLE_display_timing
+[2023.05.17-09.47.56:409][  0]LogVulkanRHI: Display: -    Found device extension VK_HUAWEI_prerotation
+[2023.05.17-09.47.56:409][  0]LogVulkanRHI: Display: -    Found device extension VK_HUAWEI_smart_cache
+[2023.05.17-09.47.56:409][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_16bit_storage
+[2023.05.17-09.47.56:409][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_8bit_storage
+[2023.05.17-09.47.56:409][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_bind_memory2
+[2023.05.17-09.47.56:409][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_buffer_device_address
+[2023.05.17-09.47.56:409][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_copy_commands2
+[2023.05.17-09.47.56:409][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_create_renderpass2
+[2023.05.17-09.47.56:409][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_dedicated_allocation
+[2023.05.17-09.47.56:409][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_depth_stencil_resolve
+[2023.05.17-09.47.56:409][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_descriptor_update_template
+[2023.05.17-09.47.56:409][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_device_group
+[2023.05.17-09.47.56:409][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_driver_properties
+[2023.05.17-09.47.56:409][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_external_fence
+[2023.05.17-09.47.56:409][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_external_fence_fd
+[2023.05.17-09.47.56:409][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_external_memory
+[2023.05.17-09.47.56:409][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_external_memory_fd
+[2023.05.17-09.47.56:409][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_external_semaphore
+[2023.05.17-09.47.56:409][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_external_semaphore_fd
+[2023.05.17-09.47.56:409][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_get_memory_requirements2
+[2023.05.17-09.47.56:409][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_image_format_list
+[2023.05.17-09.47.56:409][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_imageless_framebuffer
+[2023.05.17-09.47.56:409][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_incremental_present
+[2023.05.17-09.47.56:409][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_maintenance1
+[2023.05.17-09.47.56:409][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_maintenance2
+[2023.05.17-09.47.56:409][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_maintenance3
+[2023.05.17-09.47.56:409][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_multiview
+[2023.05.17-09.47.56:409][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_relaxed_block_layout
+[2023.05.17-09.47.56:409][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_sampler_mirror_clamp_to_edge
+[2023.05.17-09.47.56:409][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_sampler_ycbcr_conversion
+[2023.05.17-09.47.56:409][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_separate_depth_stencil_layouts
+[2023.05.17-09.47.56:409][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_shader_draw_parameters
+[2023.05.17-09.47.56:409][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_shader_float16_int8
+[2023.05.17-09.47.56:409][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_shader_float_controls
+[2023.05.17-09.47.56:409][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_shader_integer_dot_product
+[2023.05.17-09.47.56:409][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_shader_non_semantic_info
+[2023.05.17-09.47.56:409][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_shader_subgroup_extended_types
+[2023.05.17-09.47.56:409][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_shared_presentable_image
+[2023.05.17-09.47.56:409][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_spirv_1_4
+[2023.05.17-09.47.56:409][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_storage_buffer_storage_class
+[2023.05.17-09.47.56:409][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_swapchain
+[2023.05.17-09.47.56:409][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_timeline_semaphore
+[2023.05.17-09.47.56:409][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_uniform_buffer_standard_layout
+[2023.05.17-09.47.56:409][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_variable_pointers
+[2023.05.17-09.47.56:409][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_vulkan_memory_model
+[2023.05.17-09.47.56:409][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_zero_initialize_workgroup_memory
+[2023.05.17-09.47.56:409][  0]LogVulkanRHI: Display: Using Device 0: Geometry 1 BufferAtomic64 0 ImageAtomic64 0
+[2023.05.17-09.47.56:410][  0]LogVulkanRHI: Display: Found 1 Queue Families
+[2023.05.17-09.47.56:410][  0]LogVulkanRHI: Display: Initializing Queue Family 0: 2 queues Gfx Compute Xfer
+[2023.05.17-09.47.56:413][  0]LogVulkanRHI: Display: Using device layers
+[2023.05.17-09.47.56:413][  0]LogVulkanRHI: Display: Using device extensions
+[2023.05.17-09.47.56:413][  0]LogVulkanRHI: Display: * VK_GOOGLE_display_timing
+[2023.05.17-09.47.56:413][  0]LogVulkanRHI: Display: * VK_EXT_astc_decode_mode
+[2023.05.17-09.47.56:413][  0]LogVulkanRHI: Display: * VK_EXT_fragment_density_map
+[2023.05.17-09.47.56:413][  0]LogVulkanRHI: Display: * VK_EXT_fragment_density_map2
+[2023.05.17-09.47.56:413][  0]LogVulkanRHI: Display: * VK_KHR_multiview
+[2023.05.17-09.47.56:413][  0]LogVulkanRHI: Display: * VK_KHR_create_renderpass2
+[2023.05.17-09.47.56:413][  0]LogVulkanRHI: Display: * VK_KHR_swapchain
+[2023.05.17-09.47.56:413][  0]LogVulkanRHI: Display: * VK_KHR_maintenance1
+[2023.05.17-09.47.56:413][  0]LogVulkanRHI: Display: * VK_KHR_maintenance2
+[2023.05.17-09.47.56:413][  0]LogVulkanRHI: Display: * VK_EXT_scalar_block_layout
+[2023.05.17-09.47.56:413][  0]LogVulkanRHI: Display: * VK_KHR_image_format_list
+[2023.05.17-09.47.56:413][  0]LogVulkanRHI: Error: MapFormatSupport: R64_UINT is not supported with VkFormat 110
+[2023.05.17-09.47.56:413][  0]LogVulkanRHI: Display: Max memory allocations -1.
+[2023.05.17-09.47.56:413][  0]LogVulkanRHI: Display: 2 Device Memory Heaps:
+[2023.05.17-09.47.56:413][  0]LogVulkanRHI: Display:   0: Flags 0x1 - Size 7718658048 (7361.09 MB) - Used 0 (0.00%) - DeviceLocal
+[2023.05.17-09.47.56:413][  0]LogVulkanRHI: Display:   1: Flags 0x1 - Size 209715200 (200.00 MB) - Used 0 (0.00%) - DeviceLocal
+[2023.05.17-09.47.56:413][  0]LogVulkanRHI: Display: 7 Device Memory Types (unified):
+[2023.05.17-09.47.56:413][  0]LogVulkanRHI: Display:   0: Flags 0x00007 - Heap  0 -  DeviceLocal HostVisible HostCoherent                
+[2023.05.17-09.47.56:413][  0]LogVulkanRHI: Display:   1: Flags 0x0000b - Heap  0 -  DeviceLocal HostVisible              HostCached     
+[2023.05.17-09.47.56:413][  0]LogVulkanRHI: Display:   2: Flags 0x00011 - Heap  0 -  DeviceLocal                                     Lazy
+[2023.05.17-09.47.56:413][  0]LogVulkanRHI: Display:   3: Flags 0x4800007 - Heap  0 -  DeviceLocal HostVisible HostCoherent                
+[2023.05.17-09.47.56:413][  0]LogVulkanRHI: Display:   4: Flags 0x1800007 - Heap  0 -  DeviceLocal HostVisible HostCoherent                
+[2023.05.17-09.47.56:413][  0]LogVulkanRHI: Display:   5: Flags 0x2800007 - Heap  0 -  DeviceLocal HostVisible HostCoherent                
+[2023.05.17-09.47.56:413][  0]LogVulkanRHI: Display:   6: Flags 0x00021 - Heap  1 -  DeviceLocal                                         
+[2023.05.17-09.47.56:413][  0]LogVulkanRHI: Display: Memory Budget unavailable
+[2023.05.17-09.47.56:415][  0]LogVulkanRHI: FVulkanPipelineStateCacheManager will check for loading, etc when ShaderPipelineCache opens its file
+[2023.05.17-09.47.56:457][  0]LogRHI: Texture pool is 800 MB (of 7561 MB total graphics mem)
+[2023.05.17-09.47.56:465][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2023.05.17-09.47.56:467][  0]LogShaderLibrary: Display: Using IoDispatcher for shader code library Global. Total 611 unique shaders.
+[2023.05.17-09.47.56:467][  0]LogShaderLibrary: Display: Cooked Context: Using Shared Shader Library Global
+[2023.05.17-09.47.56:467][  0]LogShaderLibrary: Display: Logical shader library 'Global' has been created, components 1
+[2023.05.17-09.47.56:472][  0]LogTemp: Display: Clearing the OS Cache
+[2023.05.17-09.47.56:479][  0]LogSlate: Using FreeType 2.10.4
+[2023.05.17-09.47.56:480][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.05.17-09.47.56:480][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:481][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:483][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:483][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:483][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:483][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:483][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:484][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:488][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:488][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:488][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:488][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:488][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:488][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:488][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:488][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:488][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:489][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:491][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:491][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:491][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:491][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:491][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:491][  0]LogImageWrapper: Warning: PNG Warning: iCCP: cHRM chunk does not match sRGB
+[2023.05.17-09.47.56:491][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:491][  0]LogImageWrapper: Warning: PNG Warning: iCCP: cHRM chunk does not match sRGB
+[2023.05.17-09.47.56:501][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:501][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:501][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:501][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:501][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:501][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:501][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:501][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:501][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:501][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:501][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:501][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:501][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:501][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:501][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:501][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:501][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:501][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:501][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:501][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:503][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:503][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:503][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:524][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:524][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:524][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:524][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:524][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:524][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:524][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:524][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:524][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:524][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:524][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:524][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:524][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:524][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:524][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:525][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:525][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:525][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:528][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:528][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:528][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:528][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:528][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:533][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:533][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:533][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:533][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:533][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:533][  0]LogImageWrapper: Warning: PNG Warning: iCCP: cHRM chunk does not match sRGB
+[2023.05.17-09.47.56:533][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:533][  0]LogImageWrapper: Warning: PNG Warning: iCCP: cHRM chunk does not match sRGB
+[2023.05.17-09.47.56:533][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:533][  0]LogImageWrapper: Warning: PNG Warning: iCCP: cHRM chunk does not match sRGB
+[2023.05.17-09.47.56:533][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:533][  0]LogImageWrapper: Warning: PNG Warning: iCCP: cHRM chunk does not match sRGB
+[2023.05.17-09.47.56:533][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:534][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:536][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:536][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:536][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:536][  0]LogImageWrapper: Warning: PNG Warning: iCCP: cHRM chunk does not match sRGB
+[2023.05.17-09.47.56:536][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:536][  0]LogImageWrapper: Warning: PNG Warning: iCCP: cHRM chunk does not match sRGB
+[2023.05.17-09.47.56:536][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:536][  0]LogImageWrapper: Warning: PNG Warning: iCCP: cHRM chunk does not match sRGB
+[2023.05.17-09.47.56:536][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:536][  0]LogImageWrapper: Warning: PNG Warning: iCCP: cHRM chunk does not match sRGB
+[2023.05.17-09.47.56:541][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:541][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:541][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:541][  0]LogImageWrapper: Warning: PNG Warning: iCCP: cHRM chunk does not match sRGB
+[2023.05.17-09.47.56:541][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:541][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:541][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:541][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:541][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:541][  0]LogImageWrapper: Warning: PNG Warning: iCCP: cHRM chunk does not match sRGB
+[2023.05.17-09.47.56:541][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:541][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:541][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:541][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:544][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:544][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:544][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:544][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:544][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:544][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:549][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:549][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:549][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:549][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:549][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:549][  0]LogImageWrapper: Warning: PNG Warning: iCCP: cHRM chunk does not match sRGB
+[2023.05.17-09.47.56:549][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:549][  0]LogImageWrapper: Warning: PNG Warning: iCCP: cHRM chunk does not match sRGB
+[2023.05.17-09.47.56:549][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:549][  0]LogImageWrapper: Warning: PNG Warning: iCCP: cHRM chunk does not match sRGB
+[2023.05.17-09.47.56:549][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:549][  0]LogImageWrapper: Warning: PNG Warning: iCCP: cHRM chunk does not match sRGB
+[2023.05.17-09.47.56:551][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:551][  0]LogImageWrapper: Warning: PNG Warning: iCCP: cHRM chunk does not match sRGB
+[2023.05.17-09.47.56:551][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:551][  0]LogImageWrapper: Warning: PNG Warning: iCCP: cHRM chunk does not match sRGB
+[2023.05.17-09.47.56:551][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:551][  0]LogImageWrapper: Warning: PNG Warning: iCCP: cHRM chunk does not match sRGB
+[2023.05.17-09.47.56:551][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:551][  0]LogImageWrapper: Warning: PNG Warning: iCCP: cHRM chunk does not match sRGB
+[2023.05.17-09.47.56:553][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:553][  0]LogImageWrapper: Warning: PNG Warning: iCCP: cHRM chunk does not match sRGB
+[2023.05.17-09.47.56:553][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:553][  0]LogImageWrapper: Warning: PNG Warning: iCCP: cHRM chunk does not match sRGB
+[2023.05.17-09.47.56:553][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:553][  0]LogImageWrapper: Warning: PNG Warning: iCCP: cHRM chunk does not match sRGB
+[2023.05.17-09.47.56:553][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:553][  0]LogImageWrapper: Warning: PNG Warning: iCCP: cHRM chunk does not match sRGB
+[2023.05.17-09.47.56:553][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:554][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:557][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:557][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:557][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:557][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:557][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:557][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:568][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:568][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:568][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:568][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:568][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:568][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:568][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:568][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:568][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:568][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:568][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:568][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:568][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:568][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:568][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:568][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:568][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:568][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:568][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:569][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:571][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:571][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:571][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:571][  0]LogImageWrapper: Warning: PNG Warning: iCCP: cHRM chunk does not match sRGB
+[2023.05.17-09.47.56:571][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:571][  0]LogImageWrapper: Warning: PNG Warning: iCCP: cHRM chunk does not match sRGB
+[2023.05.17-09.47.56:571][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:572][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:574][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:574][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:574][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:574][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:574][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:575][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:580][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:580][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:580][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:580][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:580][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:580][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:580][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:580][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:580][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:580][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:584][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:584][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:584][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:584][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:584][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:585][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:593][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:594][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:594][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:594][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:594][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:594][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:594][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:594][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:594][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:594][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:594][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:594][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:594][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:594][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:594][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:594][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:594][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:594][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:597][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:597][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:597][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:597][  0]LogImageWrapper: Warning: PNG Warning: iCCP: cHRM chunk does not match sRGB
+[2023.05.17-09.47.56:597][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:597][  0]LogImageWrapper: Warning: PNG Warning: iCCP: cHRM chunk does not match sRGB
+[2023.05.17-09.47.56:597][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:598][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:600][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:600][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:600][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:600][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:600][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:600][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:603][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:603][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:603][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:603][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:603][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:604][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:606][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:606][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:606][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:606][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:606][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:607][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:609][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:609][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:609][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:609][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:609][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:609][  0]LogImageWrapper: Warning: PNG Warning: iCCP: cHRM chunk does not match sRGB
+[2023.05.17-09.47.56:609][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:610][  0]LogImageWrapper: Warning: PNG Warning: iCCP: cHRM chunk does not match sRGB
+[2023.05.17-09.47.56:612][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:612][  0]LogImageWrapper: Warning: PNG Warning: iCCP: cHRM chunk does not match sRGB
+[2023.05.17-09.47.56:612][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:612][  0]LogImageWrapper: Warning: PNG Warning: iCCP: cHRM chunk does not match sRGB
+[2023.05.17-09.47.56:612][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:612][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:612][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:612][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:631][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:631][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:631][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:631][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:631][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:631][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:631][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:631][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:631][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:631][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:631][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:631][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:631][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:631][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:631][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:631][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:631][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:631][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:631][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:631][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:631][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:631][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:631][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:631][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:631][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:631][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:631][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:631][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:631][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:631][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:631][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:631][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:631][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:631][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:631][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:631][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:631][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:632][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:634][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:634][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:634][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:634][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:635][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:635][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:635][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:637][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:637][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:637][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:637][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:638][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:664][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:665][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:665][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:665][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:665][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:665][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:665][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:665][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:665][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:665][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:665][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:665][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:665][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:665][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:665][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:665][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:665][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:665][  0]LogImageWrapper: Warning: PNG Warning: iCCP: known incorrect sRGB profile
+[2023.05.17-09.47.56:679][  0]LogVulkanRHI: Display: Requested PixelFormat 2 not supported by this swapchain! Falling back to supported swapchain format...
+[2023.05.17-09.47.56:679][  0]LogVulkanRHI: Display: Queue Family 0: Supports Present
+[2023.05.17-09.47.56:679][  0]LogVulkanRHI: Display: Queue Family 0: Supports Present
+[2023.05.17-09.47.56:679][  0]LogVulkanRHI: Creating new VK swapchain with present mode 2, format 37, color space 0, num images 3
+[2023.05.17-09.47.56:741][  0]LogPackageName: Display: FPackageName: Mount point added: '../../../CyberRoom/Plugins/AnimatedTexture/Content/' mounted to '/AnimatedTexture/'
+[2023.05.17-09.47.56:742][  0]LogPackageName: Display: FPackageName: Mount point added: '../../../CyberRoom/Plugins/BlurGlass/Content/' mounted to '/BlurGlass/'
+[2023.05.17-09.47.56:742][  0]LogPackageName: Display: FPackageName: Mount point added: '../../../CyberRoom/Plugins/HotPatcher/Content/' mounted to '/HotPatcher/'
+[2023.05.17-09.47.56:743][  0]LogPackageName: Display: FPackageName: Mount point added: '../../../CyberRoom/Plugins/OCUI/Content/' mounted to '/OCUI/'
+[2023.05.17-09.47.56:743][  0]LogPackageName: Display: FPackageName: Mount point added: '../../../CyberRoom/Plugins/PathFollow/Content/' mounted to '/PathFollow/'
+[2023.05.17-09.47.56:744][  0]LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/2D/Paper2D/Content/' mounted to '/Paper2D/'
+[2023.05.17-09.47.56:744][  0]LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Animation/ControlRig/Content/' mounted to '/ControlRig/'
+[2023.05.17-09.47.56:744][  0]LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Animation/ControlRigSpline/Content/' mounted to '/ControlRigSpline/'
+[2023.05.17-09.47.56:745][  0]LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Animation/IKRig/Content/' mounted to '/IKRig/'
+[2023.05.17-09.47.56:745][  0]LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Developer/AnimationSharing/Content/' mounted to '/AnimationSharing/'
+[2023.05.17-09.47.56:746][  0]LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Editor/GeometryMode/Content/' mounted to '/GeometryMode/'
+[2023.05.17-09.47.56:746][  0]LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Editor/ModelingToolsEditorMode/Content/' mounted to '/ModelingToolsEditorMode/'
+[2023.05.17-09.47.56:746][  0]LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/' mounted to '/SpeedTreeImporter/'
+[2023.05.17-09.47.56:747][  0]LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Enterprise/DatasmithContent/Content/' mounted to '/DatasmithContent/'
+[2023.05.17-09.47.56:747][  0]LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Experimental/ChaosClothEditor/Content/' mounted to '/ChaosClothEditor/'
+[2023.05.17-09.47.56:748][  0]LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Experimental/ChaosNiagara/Content/' mounted to '/ChaosNiagara/'
+[2023.05.17-09.47.56:748][  0]LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Experimental/ChaosSolverPlugin/Content/' mounted to '/ChaosSolverPlugin/'
+[2023.05.17-09.47.56:749][  0]LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Experimental/FullBodyIK/Content/' mounted to '/FullBodyIK/'
+[2023.05.17-09.47.56:749][  0]LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Experimental/GeometryCollectionPlugin/Content/' mounted to '/GeometryCollectionPlugin/'
+[2023.05.17-09.47.56:749][  0]LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Experimental/GeometryFlow/Content/' mounted to '/GeometryFlow/'
+[2023.05.17-09.47.56:750][  0]LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Experimental/MeshLODToolset/Content/' mounted to '/MeshLODToolset/'
+[2023.05.17-09.47.56:750][  0]LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Experimental/PanoramicCapture/Content/' mounted to '/PanoramicCapture/'
+[2023.05.17-09.47.56:751][  0]LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Experimental/PythonScriptPlugin/Content/' mounted to '/PythonScriptPlugin/'
+[2023.05.17-09.47.56:751][  0]LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Experimental/StaticMeshEditorModeling/Content/' mounted to '/StaticMeshEditorModeling/'
+[2023.05.17-09.47.56:752][  0]LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Experimental/UVEditor/Content/' mounted to '/UVEditor/'
+[2023.05.17-09.47.56:752][  0]LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/FX/Niagara/Content/' mounted to '/Niagara/'
+[2023.05.17-09.47.56:753][  0]LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Media/MediaCompositing/Content/' mounted to '/MediaCompositing/'
+[2023.05.17-09.47.56:753][  0]LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/MovieScene/SequencerScripting/Content/' mounted to '/SequencerScripting/'
+[2023.05.17-09.47.56:753][  0]LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Runtime/AudioSynesthesia/Content/' mounted to '/AudioSynesthesia/'
+[2023.05.17-09.47.56:754][  0]LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Runtime/GeometryProcessing/Content/' mounted to '/GeometryProcessing/'
+[2023.05.17-09.47.56:754][  0]LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Runtime/HDRIBackdrop/Content/' mounted to '/HDRIBackdrop/'
+[2023.05.17-09.47.56:755][  0]LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Runtime/ResonanceAudio/Content/' mounted to '/ResonanceAudio/'
+[2023.05.17-09.47.56:755][  0]LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Runtime/Synthesis/Content/' mounted to '/Synthesis/'
+[2023.05.17-09.47.56:757][  0]LogShaderLibrary: Display: Using IoDispatcher for shader code library CyberRoom_Chunk0. Total 2814 unique shaders.
+[2023.05.17-09.47.56:757][  0]LogShaderLibrary: Display: Cooked Context: Using Shared Shader Library CyberRoom_Chunk0
+[2023.05.17-09.47.56:757][  0]LogShaderLibrary: Display: Logical shader library 'CyberRoom' has been created, components 1
+[2023.05.17-09.47.56:757][  0]LogRHI: Display: Opened pipeline cache after state change and enqueued 0 of 0 tasks for precompile.
+[2023.05.17-09.47.56:758][  0]LogRHI: Display: Failed to open default shader pipeline cache for CyberRoom using shader platform 21.
+[2023.05.17-09.47.56:758][  0]LogInit: Using OS detected language (zh-CN-HANS).
+[2023.05.17-09.47.56:758][  0]LogInit: Using OS detected locale (zh-CN-HANS).
+[2023.05.17-09.47.56:758][  0]LogTextLocalizationManager: No localization for 'zh-CN-HANS' exists, so 'en' will be used for the language.
+[2023.05.17-09.47.56:758][  0]LogTextLocalizationManager: No localization for 'zh-CN-HANS' exists, so 'en' will be used for the locale.
+[2023.05.17-09.47.56:763][  0]LogAssetRegistry: FAssetRegistry took 0.0042 seconds to start up
+[2023.05.17-09.47.56:937][  0]LogStreaming: Display: FlushAsyncLoading: 1 QueuedPackages, 0 AsyncPackages
+[2023.05.17-09.47.56:939][  0]LogDeviceProfileManager: Active device profile: [0x73e3fdad80][0x73e354ec50 50] Android_Mali_G78_Vulkan
+[2023.05.17-09.47.56:939][  0]LogDeviceProfileManager: Profiles: [0x73e3fdb500][0x7443e56280 50] Android, [0x73e3fdb200][0x74444bb140 50] Android_High, [0x73e3fdb080][0x74446eec50 50] Android_Mali_G78, [0x73e3fdad80][0x73e354ec50 50] Android_Mali_G78_Vulkan, 
+[2023.05.17-09.47.56:939][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="Android_Mali_G78_Vulkan"
+[2023.05.17-09.47.56:952][  0]LogNetVersion: CyberRoom 1.0.0, NetCL: 19505902, EngineNetVer: 23, GameNetVer: 0 (Checksum: 2803840923)
+[2023.05.17-09.47.57:031][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.05.17-09.47.57:031][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.05.17-09.47.57:042][  0]LogPackageLocalizationCache: Processed 35 localized package path(s) for 1 prioritized culture(s) in 0.000153 seconds
+[2023.05.17-09.47.57:111][  0]LogMoviePlayer: Initializing movie player
+[2023.05.17-09.47.57:115][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: 274FFA81607B4706A1D3F4C021AC9A66 | Instance: 1759875B9AB747BDBF3E9AD217F027B1 (NOH-AN00-26292).
+[2023.05.17-09.47.57:116][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2023.05.17-09.47.57:116][  0]LogGooglePAD: Display: GooglePAD disabled.
+[2023.05.17-09.47.57:128][  0]LogUObjectArray: 20176 objects as part of root set at end of initial load.
+[2023.05.17-09.47.57:129][  0]LogUObjectArray: 4 objects are not in the root set, but can never be destroyed because they are in the DisregardForGC set.
+[2023.05.17-09.47.57:129][  0]LogUObjectAllocator: 4199872 out of 0 bytes used by permanent object pool.
+[2023.05.17-09.47.57:129][  0]LogUObjectArray: CloseDisregardForGC: 20176/20176 objects in disregard for GC pool
+[2023.05.17-09.47.57:130][  0]LogStreaming: Display: AsyncLoading2 - Thread Started: true, IsInitialLoad: false
+[2023.05.17-09.47.57:142][  0]LogAndroid: Display: Passed PreInit()
+[2023.05.17-09.47.57:142][  0]LogEngine: Initializing Engine...
+[2023.05.17-09.47.57:142][  0]LogGameFeatures: Initializing game features subsystem
+[2023.05.17-09.47.57:143][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2023.05.17-09.47.57:182][  0]LogStreaming: Display: AsyncLoading2 - InitialLoad Finalized: 19769 script object entries in 531.18 KB
+[2023.05.17-09.47.57:182][  0]LogGameFeatures: Scanning for built-in game feature plugins
+[2023.05.17-09.47.57:206][  0]LogInit: Initializing FReadOnlyCVARCache
+[2023.05.17-09.47.57:206][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2023.05.17-09.47.57:206][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2023.05.17-09.47.57:208][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2023.05.17-09.47.57:208][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2023.05.17-09.47.57:208][  0]LogAudio: Display: Audio Device Manager Initialized
+[2023.05.17-09.47.57:208][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2023.05.17-09.47.57:212][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.17-09.47.57:212][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.17-09.47.57:212][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1920
+[2023.05.17-09.47.57:212][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1920
+[2023.05.17-09.47.57:212][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.05.17-09.47.57:212][  0]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.17-09.47.57:212][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.05.17-09.47.57:212][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.17-09.47.57:212][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.17-09.47.57:212][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.17-09.47.57:212][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.17-09.47.57:214][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'OpenSLES'
+[2023.05.17-09.47.57:243][  0]LogAudioMixer: Display: Using Audio Hardware Device Android Audio Device
+[2023.05.17-09.47.57:244][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.17-09.47.57:245][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.17-09.47.57:246][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.17-09.47.57:249][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1920, Channels=2, Samples=3840, InstanceID=1
+[2023.05.17-09.47.57:268][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.05.17-09.47.57:268][  0]LogInit: FAudioDevice initialized.
+[2023.05.17-09.47.57:269][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2023.05.17-09.47.57:269][  0]LogInit: Texture streaming: Disabled
+[2023.05.17-09.47.57:270][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2023.05.17-09.47.57:282][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.17-09.47.57:287][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2023.05.17-09.47.57:288][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.17-09.47.57:289][  0]LogInit: Display: Game Engine Initialized.
+[2023.05.17-09.47.57:292][  0]LogInit: Display: Starting Game.
+[2023.05.17-09.47.57:292][  0]LogNet: Browse: /Game/StarterContent/Maps/CyberRoom_Mobile?Name=Player
+[2023.05.17-09.47.57:292][  0]LogLoad: LoadMap: /Game/StarterContent/Maps/CyberRoom_Mobile?Name=Player
+[2023.05.17-09.47.57:293][  0]LogWorld: BeginTearingDown for /Temp/Untitled_0
+[2023.05.17-09.47.57:293][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2023.05.17-09.47.57:293][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.17-09.47.57:315][  0]LogStreaming: Display: 0.014 ms (0.006+0.008) ms for processing 29/29 objects in NotifyUnreachableObjects( Queued=0, Async=0). Removed 0/1 (83->83 tracked) packages and 0/28 (86->86 tracked) public exports.
+[2023.05.17-09.47.57:318][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.17-09.47.57:366][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2023.05.17-09.48.04:636][  0]LogStreaming: Warning: ImportPackages: SkipPackage: None (0x385DAA0DF266945B) None (0x385DAA0DF266945B) - Skipping non mounted imported package with id '0x6297553AC78A18B5'
+[2023.05.17-09.48.04:637][  0]LogStreaming: Warning: ImportPackages: SkipPackage: None (0xC520E72BB255AF86) None (0xC520E72BB255AF86) - Skipping non mounted imported package with id '0x6297553AC78A18B5'
+[2023.05.17-09.48.04:637][  0]LogStreaming: Warning: ImportPackages: SkipPackage: None (0x4158789874656A5A) None (0x4158789874656A5A) - Skipping non mounted imported package with id '0x5E10835E2AF6DB7E'
+[2023.05.17-09.48.04:637][  0]LogMaterial: Error: Loading a material resource None with an invalid ShaderMap!
+[2023.05.17-09.48.04:637][  0]LogMaterial: Error: Loading a material resource None with an invalid ShaderMap!
+[2023.05.17-09.48.04:637][  0]LogMaterial: Error: Loading a material resource None with an invalid ShaderMap!
+[2023.05.17-09.48.04:637][  0]LogMaterial: Error: Loading a material resource None with an invalid ShaderMap!
+[2023.05.17-09.48.04:637][  0]LogMaterial: Error: Tried to access an uncooked shader map ID in a cooked application
+[2023.05.17-09.48.04:637][  0]LogMaterial: Warning: Invalid shader map ID caching shaders for 'KitchenStuff_KitchenStuff', will use default material.
+[2023.05.17-09.48.04:637][  0]LogMaterial: Can't compile KitchenStuff_KitchenStuff with cooked content, will use default material instead
+[2023.05.17-09.48.04:638][  0]LogMaterial: Warning: [AssetLog] /Game/Assets/BLender_Assets/Kitchen/Counter/KitchenStuff_KitchenStuff.KitchenStuff_KitchenStuff: Failed to compile Material for platform SF_VULKAN_ES31_ANDROID, Default Material will be used in game.
+

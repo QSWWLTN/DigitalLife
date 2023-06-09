@@ -56,7 +56,6 @@ void UClientGameInstance::Init() {
 	}
 
 #if !PLATFORM_ANDROID
-	//位于Config下的HotKey优先级大于存档中的
 	if (FPaths::FileExists(HotKeyConfigPath)) {
 		FString JsonString;
 		FFileHelper::LoadFileToString(JsonString, *HotKeyConfigPath);
@@ -110,11 +109,8 @@ bool UClientGameInstance::InitSocketFromString(FString Host, int32 Port) {
 		return false;
 	}
 	int32 Size;
-
-	//发送和接送的缓冲区大小，这里是因为老的通信方式问题保留的，如果将NO_PROTOBUF=0后可以调小
 	Socket->SetSendBufferSize(1024000000, Size);
 	Socket->SetReceiveBufferSize(102400000, Size);
-
 	StopSocket = false;
 
 	(new FAutoDeleteAsyncTask<FSendMessageAsyncTask>(this, Socket))->StartBackgroundTask();
@@ -233,6 +229,7 @@ void UClientGameInstance::GameExitEvent() {
 		Socket = nullptr;
 	}
 	StopSocket = true;
+	//FMemory::Free(ClientBuffData);
 
 #if PLATFORM_WINDOWS && !WITH_EDITOR
 	int32 Index = GetSystemMetrics(SM_CMONITORS);

@@ -34,7 +34,6 @@ void FReadMessageAsyncTask::DoWork() {
 
 			if (Socket->Recv((uint8*)TempBuff.GetData(), ReadSize, NowSize)) {
 #if NO_PROTOBUF
-				//切换人物 0 - 派蒙 1 - 云飞
 				if (TempBuff[0] == 'c' && TempBuff[TempBuff.Num() - 1] == 'n') {
 					AsyncTask(ENamedThreads::GameThread, [=] {
 						T->OnSwitchPlayerMesh.Broadcast(0);
@@ -48,7 +47,6 @@ void FReadMessageAsyncTask::DoWork() {
 					continue;
 				}
 
-				//接收服务器心跳
 				if (TempBuff.Num() >= 2) {
 					if (TempBuff[TempBuff.Num() - 1] == 'b' && TempBuff[TempBuff.Num() - 2] == 's') {
 						continue;
@@ -71,8 +69,6 @@ void FReadMessageAsyncTask::DoWork() {
 
 					ReadBuff += TempBuff;
 					RecvSize += NowSize;
-
-					//调试用
 #if !(UE_BUILD_SHIPPING || UE_BUILD_TEST)
 					GEngine->AddOnScreenDebugMessage(-1, 1000.f, FColor::Red, TEXT("等待更多数据中(没有发现终止符)"));
 					AsyncTask(ENamedThreads::GameThread, [=] {

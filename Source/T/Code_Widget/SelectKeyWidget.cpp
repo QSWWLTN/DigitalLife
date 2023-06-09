@@ -46,6 +46,11 @@ FReply USelectKeyWidget::NativeOnPreviewKeyDown(const FGeometry& InGeometry, con
 FReply USelectKeyWidget::NativeOnKeyUp(const FGeometry& InGeometry, const FKeyEvent& InKeyEvent) {
 	Super::NativeOnKeyUp(InGeometry, InKeyEvent);
 
+	UClientGameInstance* GameInstance = Cast<UClientGameInstance>(GetGameInstance());
+	if (!GameInstance->IsValidLowLevel()) {
+		return FReply::Handled();
+	}
+
 	DownKeyNum--;
 	if (DownKeyNum < 0) {
 		DownKeyNum = 0;

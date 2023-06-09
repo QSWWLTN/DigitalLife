@@ -32,16 +32,6 @@ public:
 };
 
 USTRUCT(BlueprintType)
-struct FAttachWavFileInfo {
-	GENERATED_USTRUCT_BODY()
-public:
-	UPROPERTY(BlueprintReadWrite)
-		FString WavFilePath;
-	UPROPERTY(BlueprintReadWrite)
-		uint8 StateIndex;
-};
-
-USTRUCT(BlueprintType)
 struct FHotKeyList {
 	GENERATED_USTRUCT_BODY()
 public:
