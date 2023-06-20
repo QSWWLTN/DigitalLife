@@ -46,6 +46,12 @@ void FReadMessageAsyncTask::DoWork() {
 					});
 					continue;
 				}
+				else if (TempBuff[0] == 'c' && TempBuff[TempBuff.Num() - 1] == 'd') {
+					AsyncTask(ENamedThreads::GameThread, [=] {
+						T->OnSwitchPlayerMesh.Broadcast(2);
+					});
+					continue;
+				}
 
 				if (TempBuff.Num() >= 2) {
 					if (TempBuff[TempBuff.Num() - 1] == 'b' && TempBuff[TempBuff.Num() - 2] == 's') {
