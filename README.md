@@ -9,19 +9,15 @@
 ---
 
 ## 对于蓝图玩家的教程
-### 	 添加模型和动作方法
+### 添加模型和动作方法
 1.  首先，确保你导入的模型中拥有变形目标，因为此项目显示人物表情需要使用到变形目标，如果没有的话可以在建模软件中设置，这里就不展开了
-
-2. 	打开项目的.ueproject文件，如果提示需要编译的情况，如图：
-![iTAq9d.png](https://i.328888.xyz/2023/05/05/iTAq9d.png)
+2.  打开项目的.ueproject文件，如果提示需要编译的情况，如图：
+![iTAq9d.png](https://i.328888.xyz/2023/05/05/iTAq9d.png)<br>
 请下载VisualStudio2022或者其他UE支持的编译器，并下载了WindowsSDK和.Net环境，具体可以自行百度UE编译环境搭建。
-
 3. 下载完成后右键后缀名为.uproject的文件，选择生成VisualStudio项目文件，等待进度条完成
 ![iTDNJE.png](https://i.328888.xyz/2023/05/05/iTDNJE.png)
-
 4. 点击后缀为.sln的文件，打开VisualStudio,右键解决方案管理器中的名称为T的项目并设置为启动项目
 ![iTD6Dd.png](https://i.328888.xyz/2023/05/05/iTD6Dd.png)
-
 ![iTD5bw.png](https://i.328888.xyz/2023/05/05/iTD5bw.png)
 
 5. 确保箭头中下拉框中选择了Development Editor后点击本地调试器
@@ -34,8 +30,8 @@
 如图的内容
 ![iTnE4d.png](https://i.328888.xyz/2023/05/05/iTnE4d.png)
 
-8. 添加完成后打开动画图表，在输出姿势前添加插槽动画，默认即可
-![iTtbaa.png](https://i.328888.xyz/2023/05/05/iTtbaa.png)
+8. 添加完成后打开动画图表，在输出姿势前添加插槽动画，默认即可<br>
+   ![iTtbaa.png](https://i.328888.xyz/2023/05/05/iTtbaa.png)
 
 9. 状态机可以根据获取到的NowState来进行判断，这里就靠你自己发挥了
 
@@ -66,9 +62,8 @@
 ![iTCMPw.png](https://i.328888.xyz/2023/05/05/iTCMPw.png)
 
 ### 修改触发说话部分
-BaseTargetActor的Say输入事件为Windows下的触发事件，SayPressed和SayReleased为安卓的触屏触发事件
-![iTOHbN.png](https://i.328888.xyz/2023/05/05/iTOHbN.png)
-
+BaseTargetActor的Say输入事件为Windows下的触发事件，SayPressed和SayReleased为安卓的触屏触发事件<br>
+![iTOHbN.png](https://i.328888.xyz/2023/05/05/iTOHbN.png)<br>
 ![iTOX6p.png](https://i.328888.xyz/2023/05/05/iTOX6p.png)
 
 想要自己修改触发方式的话可以在这里修改
