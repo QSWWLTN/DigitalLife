@@ -12,26 +12,25 @@
 ### 添加模型和动作方法
 1.  首先，确保你导入的模型中拥有变形目标，因为此项目显示人物表情需要使用到变形目标，如果没有的话可以在建模软件中设置，这里就不展开了
 2.  打开项目的.uproject文件，如果提示需要编译的情况，如图：
-![iTAq9d.png](https://i.328888.xyz/2023/05/05/iTAq9d.png)<br>
+![image](https://github.com/QSWWLTN/DigitalLife/assets/52273933/ba53a8a0-5ac9-4520-8638-46b5fce483b0)<br>
 请下载VisualStudio2022或者其他UE支持的编译器，并下载了WindowsSDK和.Net环境，具体可以自行百度UE编译环境搭建。
 3. 下载完成后右键后缀名为.uproject的文件，选择生成VisualStudio项目文件，等待进度条完成
-![iTDNJE.png](https://i.328888.xyz/2023/05/05/iTDNJE.png)
+![image](https://github.com/QSWWLTN/DigitalLife/assets/52273933/1a095d11-761f-417b-9a6e-a25716a7294a)
 4. 点击后缀为.sln的文件，打开VisualStudio,右键解决方案管理器中的名称为T的项目并设置为启动项目
-![iTD6Dd.png](https://i.328888.xyz/2023/05/05/iTD6Dd.png)
-![iTD5bw.png](https://i.328888.xyz/2023/05/05/iTD5bw.png)
+![image](https://github.com/QSWWLTN/DigitalLife/assets/52273933/de22dcbe-4b68-4328-b3f5-33b92d8f7d6c)
 
 5. 确保箭头中下拉框中选择了Development Editor后点击本地调试器
-![iTD9XL.png](https://i.328888.xyz/2023/05/05/iTD9XL.png)
+![image](https://github.com/QSWWLTN/DigitalLife/assets/52273933/b2934af5-657e-45b8-b32d-11cb506b0668)
 等待编译完成后就会自动开启项目，当编译完成后，之后的开启项目就不需要重复2-4步了
 
 6. 开启项目后就可以导入你制作的模型和动作，位置没有规定，可以放在项目的任何位置
 
 7. 点击TargetActor目录下的BaseTargetActor，将SkeletalMesh或者SkeletalMesh_2替换为你制作的模型；SkeletalMesh对应的服务器选项为PaiMon，SkeletalMesh_2对应YunFei；SkeletalMesh自带随机飘动效果和摄像机晃动，SkeletalMesh_2没有；创建你的动画蓝图到项目任意位置，打开动画蓝图的事件图表，在事件蓝图更新动画后添加
 如图的内容
-![iTnE4d.png](https://i.328888.xyz/2023/05/05/iTnE4d.png)
+![image](https://github.com/QSWWLTN/DigitalLife/assets/52273933/8c22252d-9d1c-4819-ad69-1eb2d20d81a1)
 
 8. 添加完成后打开动画图表，在输出姿势前添加插槽动画，默认即可<br>
-   ![iTtbaa.png](https://i.328888.xyz/2023/05/05/iTtbaa.png)
+![image](https://github.com/QSWWLTN/DigitalLife/assets/52273933/797ec340-c29c-4df8-bc59-846239b6471e)
 
 9. 状态机可以根据获取到的NowState来进行判断，这里就靠你自己发挥了
 
@@ -63,16 +62,15 @@
 
 ### 修改触发说话部分
 BaseTargetActor的Say输入事件为Windows下的触发事件，SayPressed和SayReleased为安卓的触屏触发事件<br>
-![iTOHbN.png](https://i.328888.xyz/2023/05/05/iTOHbN.png)<br>
-![iTOX6p.png](https://i.328888.xyz/2023/05/05/iTOX6p.png)
+![image](https://github.com/QSWWLTN/DigitalLife/assets/52273933/94aac184-a134-475b-8384-9ac83283aa23)
 
 想要自己修改触发方式的话可以在这里修改
 
 ### 无聊的触发时间设置
-![iTbZxb.png](https://i.328888.xyz/2023/05/05/iTbZxb.png)
+![image](https://github.com/QSWWLTN/DigitalLife/assets/52273933/5cfb8869-da9a-4de1-8cc6-5f0f0d8f0835)
 
 ### 眨眼的触发时间设置
-![iTjGOH.png](https://i.328888.xyz/2023/05/05/iTjGOH.png)
+![image](https://github.com/QSWWLTN/DigitalLife/assets/52273933/dafc1111-1e75-454c-866a-02ef037ba0c3)
 
 ###	注意事项
 # 1.MoodType枚举不允许修改！！！
