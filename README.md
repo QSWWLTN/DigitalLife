@@ -58,7 +58,7 @@
 > DontSwitchState：在播放完后是否不要切换状态
 
 2. 添加完表情后打开UI目录下的StartWidget控件，将MorphTargetName改为你模型中嘴巴的变形目标名称，并将ExpressionTable修改为你刚才创建的数据表
-![iTCMPw.png](https://i.328888.xyz/2023/05/05/iTCMPw.png)
+![image](https://github.com/QSWWLTN/DigitalLife/assets/52273933/017307e4-72b1-47b2-9f12-84176e8d7e0b)
 
 ### 修改触发说话部分
 BaseTargetActor的Say输入事件为Windows下的触发事件，SayPressed和SayReleased为安卓的触屏触发事件<br>
